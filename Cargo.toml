@@ -1,11 +1,14 @@
 [package]
-name = ""
+name = "jwt-tonic-user-uuid"
 version = "999.999.999"
 edition = "2021"
 authors = ["Kviring A.V. <alex@kviring.com>"]
 license = "Apache-2.0"
-description = ""
-repository = ""
+description = "JWT token parser for grpc request"
+repository = "https://github.com/cheetah-game-platform/jwt-tonic-user-uuid"
 
 [dependencies]
-
+jsonwebtoken = "7.2.0"
+uuid = { version = "1.0.0", features = ["v4", "serde"] }
+tonic = "0.6.2"
+serde = { version = "1.0.136", features = ["derive"] }
