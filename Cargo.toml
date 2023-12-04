@@ -8,7 +8,7 @@ description = "JWT token parser for grpc request"
 repository = "https://github.com/cheetah-game-platform/jwt-tonic-user-uuid"
 
 [dependencies]
-jsonwebtoken = "8.1.1"
+jsonwebtoken = "9.2.0"
 uuid = { version = "1.0.0", features = ["v4", "serde"] }
 tonic = "0.7.2"
 serde = { version = "1.0.136", features = ["derive"] }
